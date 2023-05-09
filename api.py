@@ -8,7 +8,7 @@ def apiApp():
 	client = Client(account_sid, auth_token)
 	message = client.messages.create(
 	  body="Accident is Detected",
-	  from_="+13203628692",
-	  to="+919431893084"
+	  from_="**********",
+	  to="**********"
 	)
 	print(message.sid)
